@@ -1,7 +1,11 @@
 Типичное микро-приложение с запуском на fpm на 8081 порту php -S localhost:8001 -t public
+К черту фреймворки..
 
 Но это так, не главное
 
+Запуск основного функционала:
+ php8.2 bin/console app:seed-users
 
-
+Запуск теста апишки:
+php8.2 ./vendor/bin/phpunit tests/RecoverPasswordTest.php
 
