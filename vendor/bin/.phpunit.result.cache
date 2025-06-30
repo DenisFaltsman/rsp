@@ -1,0 +1,1 @@
+{"version":1,"defects":{"RecoverPasswordTest::testRecoverSuccessResponse":7,"RecoverPasswordApiTest::testRecoverPasswordWithInvalidEmail":8},"times":{"RecoverPasswordTest::testRecoverSuccessResponse":1.019,"RecoverPasswordApiTest::testRecoverPasswordReturnsSuccess":0.01,"RecoverPasswordApiTest::testRecoverPasswordWithInvalidEmail":0.003}}

@@ -1,0 +1,21 @@
+{
+    "name": "suspiria/rusprofile",
+    "autoload": {
+        "psr-4": {
+            "Rusprofile\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Denis Nagorny",
+            "email": "denis@121ecommerce.co"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "symfony/console": "^7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}

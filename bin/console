@@ -1,0 +1,11 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__ . '/../vendor/autoload.php';
+
+use Rusprofile\Commands\FetchDataCommand;
+use Symfony\Component\Console\Application;
+
+$application = new Application('Rusprofile CLI', '1.0.0');
+$application->add(new \Rusprofile\Commands\FillUsers());
+$application->run();
